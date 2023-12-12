@@ -28,6 +28,7 @@ game_var = tk.StringVar()
 tk.Checkbutton(root, text="Chess", variable=game_var, onvalue="Chess").grid(row=4, column=1, sticky=tk.W)
 tk.Checkbutton(root, text="Football", variable=game_var, onvalue="Football").grid(row=4, column=1, sticky=tk.E)
 tk.Button(root, text="Submit", command=display_details).grid(row=5, column=1, pady=10)
+
 result_text = tk.StringVar()
 result_label = tk.Label(root, textvariable=result_text)
 result_label.grid(row=6, column=0, columnspan=2)
