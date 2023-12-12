@@ -1,5 +1,4 @@
 import tkinter as tk
-# Vipul Mhatre 60019220025 B062
 
 root = tk.Tk()
 root.title("Christmas Tree")
