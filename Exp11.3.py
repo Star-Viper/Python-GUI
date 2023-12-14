@@ -14,5 +14,4 @@ canvas.create_oval(150, 150, 180, 180, fill='red')
 canvas.create_oval(210, 210, 220, 220, fill='red')
 canvas.create_oval(250, 250, 280, 280, fill='red')
 
-
 root.mainloop()
